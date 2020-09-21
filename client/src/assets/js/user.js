@@ -4,9 +4,6 @@ class User {
     constructor() {
         this.clientId = '24a24546e256';
         this.secret = '8ffe8ae1aff3da64e8c2e52445066880';
-        this.hostname = window.location.hostname;
-        this.port = this.hostname === 'test' ? ':3000' : '';
-        console.log(this.hostname, this.port);
     }
 
     con() {
